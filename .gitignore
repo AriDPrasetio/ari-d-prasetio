@@ -5,3 +5,9 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Dokument
+docs/design_and_content_revised.md
+docs/Issue_Drafts_Full.md
+docs/lofi_wireframe.md
+PRD.md
