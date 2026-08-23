@@ -6,7 +6,7 @@ Website portofolio personal, dibangun dengan HTML & CSS murni (tanpa framework) 
 
 ## Status
 
-Belum ada yang dikerjakan. Lihat tab **Issues** untuk daftar pekerjaan.
+Belum ada yang dikerjakan.
 
 ## Stack (rencana)
 
@@ -14,7 +14,6 @@ HTML5, CSS3 (Flexbox/Grid), tanpa build tool.
 
 ## Kontak
 
-- Email: `[Email Anda]`
-- GitHub: `[Link GitHub]`
+> Coming Soon
 
 © 2026 Ari Dwi Prasetio
