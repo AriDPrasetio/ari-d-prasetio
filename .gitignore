@@ -7,4 +7,7 @@ Thumbs.db
 .idea/
 
 # Dokument
-docs/lofi_wireframe.md
+docs/
+
+#json
+.json
