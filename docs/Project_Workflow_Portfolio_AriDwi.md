@@ -131,16 +131,16 @@ Progress tiap milestone otomatis terlihat di GitHub dari Issue/PR yang tertaut k
 
 ### M2 — Struktur HTML (Semantic HTML5)
 
-| #   | Judul Issue                                                | Labels                                  |
-| --- | ---------------------------------------------------------- | --------------------------------------- |
-| 3   | Build markup Header & Navigation (`<header>`, `<nav>`)     | `type:feature`, `area:html`             |
-| 4   | Build markup Hero Section (`<section>` + H1)               | `type:feature`, `area:html`             |
-| 5   | Build markup About Section (H2 + 2 paragraf)               | `type:feature`, `area:html`             |
-| 6   | Build markup Skills Section (badge list)                   | `type:feature`, `area:html`             |
-| 7   | Build markup Projects Section (`<article>` per card)       | `type:feature`, `area:html`             |
-| 8   | Build markup Contact Section                               | `type:feature`, `area:html`             |
-| 9   | Build markup Footer                                        | `type:feature`, `area:html`             |
-| 10  | Isi konten sesuai `design_and_content.md` ke semua section | `type:feature`, `area:content`          |
+| #   | Judul Issue                                                | Labels                         |
+| --- | ---------------------------------------------------------- | ------------------------------ |
+| 3   | Build markup Header & Navigation (`<header>`, `<nav>`)     | `type:feature`, `area:html`    |
+| 4   | Build markup Hero Section (`<section>` + H1)               | `type:feature`, `area:html`    |
+| 5   | Build markup About Section (H2 + 2 paragraf)               | `type:feature`, `area:html`    |
+| 6   | Build markup Skills Section (badge list)                   | `type:feature`, `area:html`    |
+| 7   | Build markup Projects Section (`<article>` per card)       | `type:feature`, `area:html`    |
+| 8   | Build markup Contact Section                               | `type:feature`, `area:html`    |
+| 9   | Build markup Footer                                        | `type:feature`, `area:html`    |
+| 10  | Isi konten sesuai `design_and_content.md` ke semua section | `type:feature`, `area:content` |
 
 ### M3 — Styling Mobile (Mobile-First, < 768px)
 
@@ -153,19 +153,19 @@ Progress tiap milestone otomatis terlihat di GitHub dari Issue/PR yang tertaut k
 | 15  | Style Projects card mobile                                  | `type:feature`, `area:css` |
 | 16  | Style Contact Section mobile                                | `type:feature`, `area:css` |
 | 17  | Style Footer mobile (text-center)                           | `type:feature`, `area:css` |
-| 18  | Implementasi toggle menu mobile (vanilla JavaScript)         | `type:feature`, `area:js`  |
+| 18  | Implementasi toggle menu mobile (vanilla JavaScript)        | `type:feature`, `area:js`  |
 
 ### M4 — RWD Tablet (768–1024px)
 
 | #   | Judul Issue                                                                               | Labels                      |
-| --- | ------------------------------------------------------------------------------------------- | --------------------------- |
+| --- | ----------------------------------------------------------------------------------------- | --------------------------- |
 | 19  | Media query Tablet (768–1024px): sesuaikan spacing & layout 2 kolom parsial               | `type:feature`, `area:rwd`  |
 | 20  | Terapkan `max-width` pada container agar tidak melebar berlebihan mulai breakpoint Tablet | `type:refactor`, `area:rwd` |
 
 ### M5 — RWD Desktop (>1024px)
 
 | #   | Judul Issue                                                         | Labels                     |
-| --- | --------------------------------------------------------------------- | --------------------------- |
+| --- | ------------------------------------------------------------------- | -------------------------- |
 | 21  | Media query Desktop: About+Skills 2 kolom via Flexbox               | `type:feature`, `area:rwd` |
 | 22  | Media query Desktop: Projects grid `grid-template-columns: 1fr 1fr` | `type:feature`, `area:rwd` |
 | 23  | Nav Desktop: ganti hamburger jadi horizontal menu                   | `type:feature`, `area:rwd` |
@@ -173,7 +173,7 @@ Progress tiap milestone otomatis terlihat di GitHub dari Issue/PR yang tertaut k
 ### M6 — Audit Aksesibilitas & Finishing
 
 | #   | Judul Issue                                                            | Labels                                           |
-| --- | ------------------------------------------------------------------------ | --------------------------------------------------- |
+| --- | ---------------------------------------------------------------------- | ------------------------------------------------ |
 | 24  | Audit rasio kontras warna (WCAG AA) — cek via WebAIM Contrast Checker  | `type:bug`/`type:refactor`, `area:accessibility` |
 | 25  | Audit & lengkapi `alt` text di semua `<img>`                           | `type:bug`, `area:accessibility`                 |
 | 26  | Audit hierarki heading (H1 sekali, H2 per section, tanpa lompat level) | `type:refactor`, `area:accessibility`            |
@@ -342,10 +342,10 @@ Ketika semua Issue M1–M6 closed dan checklist di atas terpenuhi, seluruh 6 mil
 
 ## 8. Riwayat Revisi (Changelog)
 
-| # | Perubahan | Alasan |
-|---|---|---|
-| 1 | Jumlah milestone di Bagian 0 dikoreksi dari "5" jadi "6 (M1–M6)" | Teks lama gak sinkron dengan tabel milestone dan Issue #1 yang sudah benar pakai 6 |
-| 2 | Tambah label `area:js` | Scope proyek nambah 1 fitur JS (toggle menu mobile) — lihat perubahan #3 |
-| 3 | Tambah Issue #18 "Implementasi toggle menu mobile (vanilla JavaScript)" di M3, seluruh Issue #18–#29 lama di-renumber jadi #19–#30 | Issue #3 dan #11 (draf lama) menunda logic toggle tanpa ada Issue yang benar-benar mengerjakannya — nav mobile jadi gak berfungsi tanpa ini. Diletakkan di akhir M3 karena baru bisa dikerjakan setelah header + nav mobile selesai di-style (Issue #11) |
-| 4 | Label Issue #10 diperjelas jadi `type:feature`, `area:content` | Versi lama ("`type:content` → gunakan `area:content`") ambigu dan `type:content` gak ada di daftar label resmi |
-| 5 | Fokus M3 di tabel Bagian 1 ditambah keterangan toggle JS | Supaya konsisten dengan Issue #18 yang baru |
+| #   | Perubahan                                                                                                                          | Alasan                                                                                                                                                                                                                                                   |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Jumlah milestone di Bagian 0 dikoreksi dari "5" jadi "6 (M1–M6)"                                                                   | Teks lama gak sinkron dengan tabel milestone dan Issue #1 yang sudah benar pakai 6                                                                                                                                                                       |
+| 2   | Tambah label `area:js`                                                                                                             | Scope proyek nambah 1 fitur JS (toggle menu mobile) — lihat perubahan #3                                                                                                                                                                                 |
+| 3   | Tambah Issue #18 "Implementasi toggle menu mobile (vanilla JavaScript)" di M3, seluruh Issue #18–#29 lama di-renumber jadi #19–#30 | Issue #3 dan #11 (draf lama) menunda logic toggle tanpa ada Issue yang benar-benar mengerjakannya — nav mobile jadi gak berfungsi tanpa ini. Diletakkan di akhir M3 karena baru bisa dikerjakan setelah header + nav mobile selesai di-style (Issue #11) |
+| 4   | Label Issue #10 diperjelas jadi `type:feature`, `area:content`                                                                     | Versi lama ("`type:content` → gunakan `area:content`") ambigu dan `type:content` gak ada di daftar label resmi                                                                                                                                           |
+| 5   | Fokus M3 di tabel Bagian 1 ditambah keterangan toggle JS                                                                           | Supaya konsisten dengan Issue #18 yang baru                                                                                                                                                                                                              |
