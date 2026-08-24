@@ -1,18 +1,3 @@
-/**
- * SETTINGS › SEMANTIC › COLORS
- * -----------------------------------------------------------------------
- * Purpose-based tokens. This is the ONLY color layer components may
- * consume. Every token here resolves to a primitive from
- * primitive/colors.css — never a raw hex value.
- *
- * Theming: default block = light theme. `prefers-color-scheme: dark`
- * covers OS-level preference; `[data-theme="dark"]` / `[data-theme="light"]`
- * let a user override that preference explicitly (toggle sets the
- * attribute on <html>). The attribute selector always wins because it
- * is declared after the media query and matches on specificity + source
- * order.
- */
-
 :root {
   /* Surface */
   --color-bg-canvas: var(--color-neutral-0);

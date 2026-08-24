@@ -1,11 +1,3 @@
-/**
- * SETTINGS › PRIMITIVE › COLORS
- * -----------------------------------------------------------------------
- * Raw palette. No meaning attached — never referenced by components.
- * Components/objects/utilities must consume SEMANTIC tokens only.
- * Scale: 50 (lightest) → 900 (darkest), OKLCH-friendly hex fallbacks.
- */
-
 :root {
   /* Neutral (gray) ramp */
   --color-neutral-0: #ffffff;
