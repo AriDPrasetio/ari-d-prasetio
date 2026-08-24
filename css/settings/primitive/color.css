@@ -1,0 +1,60 @@
+/**
+ * SETTINGS › PRIMITIVE › COLORS
+ * -----------------------------------------------------------------------
+ * Raw palette. No meaning attached — never referenced by components.
+ * Components/objects/utilities must consume SEMANTIC tokens only.
+ * Scale: 50 (lightest) → 900 (darkest), OKLCH-friendly hex fallbacks.
+ */
+
+:root {
+  /* Neutral (gray) ramp */
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f7f7f8;
+  --color-neutral-100: #eeeef0;
+  --color-neutral-200: #dcdce1;
+  --color-neutral-300: #c0c1c9;
+  --color-neutral-400: #9a9ba7;
+  --color-neutral-500: #71727e;
+  --color-neutral-600: #53545f;
+  --color-neutral-700: #3d3e47;
+  --color-neutral-800: #26272e;
+  --color-neutral-900: #17171b;
+  --color-neutral-950: #0c0c0e;
+
+  /* Brand / accent ramp */
+  --color-brand-50: #eef1ff;
+  --color-brand-100: #dfe3ff;
+  --color-brand-200: #c1c8ff;
+  --color-brand-300: #9ba3ff;
+  --color-brand-400: #7a7ffb;
+  --color-brand-500: #635bff; /* base */
+  --color-brand-600: #4f46e5;
+  --color-brand-700: #3f37bd;
+  --color-brand-800: #322c94;
+  --color-brand-900: #272370;
+
+  /* Feedback ramps (success / warning / danger / info) */
+  --color-green-50: #ecfdf3;
+  --color-green-300: #6ce9a6;
+  --color-green-500: #12b76a;
+  --color-green-700: #027a48;
+
+  --color-amber-50: #fffaeb;
+  --color-amber-300: #fec84b;
+  --color-amber-500: #f79009;
+  --color-amber-700: #b54708;
+
+  --color-red-50: #fef3f2;
+  --color-red-300: #fda29b;
+  --color-red-500: #f04438;
+  --color-red-700: #b42318;
+
+  --color-blue-50: #eff8ff;
+  --color-blue-300: #84caff;
+  --color-blue-500: #2e90fa;
+  --color-blue-700: #175cd3;
+
+  /* Absolute */
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
