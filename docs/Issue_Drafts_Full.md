@@ -39,7 +39,7 @@ Menyiapkan infrastruktur GitHub sebelum development dimulai, supaya semua Issue 
 ```
 Milestone: M1 — Persiapan
 Labels: type:feature, area:css
-Review: [ ] belum
+Review: [x] sudah — final naming mengikuti alias CSS yang konsisten dengan desain: `--background`, `--surface`, `--border`, `--text-primary`, `--text-muted`, `--accent-primary`, `--accent-primary-hover`, serta `--font-heading` dan `--font-body`.
 ```
 
 **Objective**
@@ -53,9 +53,9 @@ Mendefinisikan design token (warna & font) sebagai CSS Custom Properties, sesuai
 
 **Acceptance Criteria**
 
-- [ ] Semua 7 warna di tabel palet punya variabel CSS masing-masing.
-- [ ] `--font-heading` dan `--font-body` terpasang dan bisa dipakai elemen lain.
-- [ ] Tidak ada warna atau font hardcode di file token ini (semua lewat Google Fonts + variabel).
+- [x] Semua 7 warna di tabel palet punya variabel CSS masing-masing.
+- [x] `--font-heading` dan `--font-body` terpasang dan bisa dipakai elemen lain.
+- [x] Tidak ada warna atau font hardcode di file token ini (semua lewat Google Fonts + variabel).
 
 ---
 

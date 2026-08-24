@@ -1,0 +1,10 @@
+:root {
+  --font-heading: var(--font-sans-geist);
+  --font-body: var(--font-sans-inter);
+
+  --size-display: var(--font-size-fluid-display);
+  --size-h1: var(--font-size-fluid-h1);
+  --size-h2: var(--font-size-fluid-h2);
+  --size-h3: var(--font-size-fluid-h3);
+  --size-body: var(--font-size-fluid-body);
+}
