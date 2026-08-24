@@ -7,7 +7,7 @@ Thumbs.db
 .idea/
 
 # Dokument
-docs
+docs/
 
 #json
 issues.json
