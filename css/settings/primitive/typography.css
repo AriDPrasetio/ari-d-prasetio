@@ -24,11 +24,13 @@
 }
 
 :root {
+  /* Semantic font tokens (used by the issue/workflow docs) */
   /* Font families (raw stacks) */
-  --font-family-sans:
+  --font-sans-geist:
     "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-family-mono:
-    "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-sans-inter:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
   /* Static size scale (rem) */
   --font-size-1: 0.75rem; /* 12px */
