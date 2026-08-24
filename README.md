@@ -6,7 +6,7 @@ Website portofolio personal, dibangun dengan HTML & CSS murni (tanpa framework) 
 
 ## Status
 
-Belum ada yang dikerjakan. Lihat tab **Issues** untuk daftar pekerjaan.
+Sedang dalam pengerjaan. Lihat tab **Issues** untuk daftar pekerjaan.
 
 ## Stack (rencana)
 
