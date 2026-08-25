@@ -1,0 +1,76 @@
+/**
+ * Modern, accessible CSS Reset utilizing CSS Logical Properties
+ * and WCAG-compliant baseline defaults.
+ */
+/* 1. Reset margin to all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+/* 2. Set core root defaults */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  tab-size: 4;
+}
+/* 3. Smooth scrolling only when preferred by the user */
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+}
+/* 4. Set core body defaults */
+body {
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 5. Improve media defaults (Images, videos, SVGs, canvases) */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+/* 7. Remove list styles when lists have no role or when reset */
+ul[role="list"],
+ol[role="list"] {
+  padding: 0;
+  list-style: none;
+}
+/* 8. Avoid text overflows on headings & block text */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* 9. Respect reduced motion preferences across all animations & transitions */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
