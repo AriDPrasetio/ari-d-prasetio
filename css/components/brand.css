@@ -1,5 +1,6 @@
 .c-brand {
   text-decoration: none;
+  color: var(--color-interactive-default);
   font-size: var(--size-h3);
   letter-spacing: var(--letter-spacing-tight);
   font-weight: var(--font-weight-semibold);
