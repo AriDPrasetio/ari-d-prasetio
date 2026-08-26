@@ -1,0 +1,16 @@
+.c-skip-link {
+  text-decoration: none;
+  position: fixed;
+  z-index: 10;
+  inset-block-start: var(--space-2);
+  inset-inline-start: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  line-height: 1;
+  background-color: var(--color-interactive-default);
+  color: var(--color-text-inverse);
+  transform: translateY(-200%);
+  transition: transform 240ms ease;
+}
+.c-skip-link:focus-visible {
+  transform: translateY(0);
+}
