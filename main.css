@@ -1,4 +1,13 @@
-@import url("css/settings/primitive/color.css");
-@import url("css/settings/primitive/spacing.css");
-@import url("css/settings/primitive/typography.css");
-@import url("css/settings/semantic/color.css");
+@layer settings, generic, elements;
+/* 1. Settings */
+@import url("css/settings/primitive/color.css") layer(settings);
+@import url("css/settings/primitive/spacing.css") layer(settings);
+@import url("css/settings/primitive/typography.css") layer(settings);
+@import url("css/settings/semantic/color.css") layer(settings);
+@import url("css/settings/semantic/typography.css") layer(settings);
+/* 2. Generic */
+@import url("css/generic/box-sizing.css") layer(generic);
+@import url("css/generic/reset.css") layer(generic);
+@import url("css/generic/normalize.css") layer(generic);
+/* 3. Elements */
+@import url("css/elements/base.css") layer(elements);

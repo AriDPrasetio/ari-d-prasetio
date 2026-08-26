@@ -1,0 +1,14 @@
+/**
+ * Normalizes browser inconsistencies without overriding legitimate
+ * typographic or layout decisions.
+ */
+
+/* Remove default appearance from buttons */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}

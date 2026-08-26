@@ -1,0 +1,66 @@
+/**
+ * Root document and body element base styles.
+ * Uses semantic tokens and logical properties without class selectors.
+ */
+html {
+  font-size: 100%;
+}
+:focus-visible {
+  outline: 2px solid var(--color-interactive-default);
+  outline-offset: 2px;
+}
+body {
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+  letter-spacing: var(--letter-spacing-normal);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-canvas);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  color: var(--color-text-primary);
+  text-wrap: balance;
+}
+h1 {
+  font-size: var(--size-display);
+}
+h2 {
+  font-size: var(--size-h2);
+}
+h3 {
+  font-size: var(--size-h3);
+}
+p {
+  text-wrap: pretty;
+}
+strong,
+b {
+  font-weight: var(--font-weight-bold);
+}
+a {
+  color: var(--color-interactive-default);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+a:hover {
+  color: var(--color-interactive-hover);
+}
+a:active {
+  color: var(--color-interactive-active);
+}
+img,
+picture {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
