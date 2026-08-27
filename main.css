@@ -1,4 +1,4 @@
-@layer settings, generic, elements;
+@layer settings, generic, elements, objects, components;
 /* 1. Settings */
 @import url("css/settings/primitive/color.css") layer(settings);
 @import url("css/settings/primitive/spacing.css") layer(settings);
@@ -11,3 +11,10 @@
 @import url("css/generic/normalize.css") layer(generic);
 /* 3. Elements */
 @import url("css/elements/base.css") layer(elements);
+/* 4. Objects */
+@import url("css/objects/wrapper.css") layer(objects);
+/* 5. Components */
+@import url("css/components/skip-link.css") layer(components);
+@import url("css/components/header.css") layer(components);
+@import url("css/components/navbar.css") layer(components);
+@import url("css/components/brand.css") layer(components);
