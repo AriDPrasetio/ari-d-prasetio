@@ -1,19 +1,18 @@
 # Portfolio Website — Ari Dwi Prasetio
 
-> 🚧 Tahap awal. Belum ada kode. Repo baru berisi setup dasar.
-
-Website portofolio personal, dibangun dengan HTML & CSS murni (tanpa framework) untuk latihan semantic HTML, responsive design, dan accessibility dasar.
+Website portofolio personal, dibangun dengan HTML, Vanilla CSS (tanpa framework), dan Vanilla JS untuk latihan semantic HTML, responsive design, accessibility dasar, dan JavaScript dasar.
 
 ## Status
 
-Sedang dalam pengerjaan. Lihat tab **Issues** untuk daftar pekerjaan.
+> Sedang dalam pengerjaan.
 
 ## Stack (rencana)
 
-HTML5, CSS3 (Flexbox/Grid), tanpa build tool.
+- HTML5, CSS3 (Custom Properties, Cascade Layers, Flexbox/Grid), Vanilla JS.
+- Arsitektur CSS: ITCSS, BEM, Design token 2-tier (primitive + semantic), CSS logical properties
 
 ## Kontak
 
-> Coming Soon
+> Email: aridprasetio@gmail.com
 
 © 2026 Ari Dwi Prasetio
