@@ -52,181 +52,197 @@
       </div>
     </header>
 
-    <main id="main-content" class="o-wrapper">
-      <div class="c-main">
-        <div class="c-main__inner">
-          <section id="home" class="c-hero" aria-labelledby="hero-title">
+    <main id="main-content" class="">
+      <section id="home" class="c-hero o-section" aria-labelledby="hero-title">
+        <div class="c-hero__background">
+          <img
+            src="assets/image/indigo_landscape_upscaled_4k.webp"
+            alt=""
+            class="c-hero__background-image"
+            aria-hidden="true"
+          />
+        </div>
+        <div class="c-hero__background-overlay" aria-hidden="true"></div>
+
+        <div class="c-hero__inner o-container">
+          <div class="c-hero__inner">
             <div class="c-hero__content-text">
+              <p class="c-hero__eyebrow c-eyebrow">Proses belajar</p>
               <h1 id="hero-title" class="c-hero__title">
-                Membangun interface. Membangun cara berpikir.
+                Membangun interface.<br />
+                Membangun cara berpikir.
               </h1>
               <p class="c-hero__description">
-                Perjalanan saya ke <strong>Frontend Development</strong> dimulai
-                dari rasa ingin tahu sederhana: &ldquo;Bagaimana jika belajar
-                coding bukan hanya tentang membuat sesuatu, tetapi juga tentang
-                belajar berpikir dengan lebih baik?&rdquo;
+                Perjalanan saya ke
+                <strong>Frontend Development</strong> dimulai dari rasa ingin
+                tahu sederhana: &ldquo;Bagaimana jika belajar coding bukan hanya
+                tentang membuat sesuatu, tetapi juga tentang belajar berpikir
+                dengan lebih baik?&rdquo;
               </p>
             </div>
             <div class="c-hero__actions">
-              <a href="#skills" class="c-btn c-btn--outline"
+              <a href="#skills" class="c-btn c-btn--secondary"
                 >Lihat skill saya</a
               >
               <a href="#projects" class="c-btn c-btn--primary"
                 >Jelajahi proyek
               </a>
             </div>
-          </section>
-
-          <section id="about" class="c-about" aria-labelledby="about-title">
-            <p class="c-about__eyebrow c-eyebrow">Tentang</p>
-            <h2 id="about-title">Perjalanan Baru</h2>
-            <p>
-              Latar belakang saya bukan dari dunia teknologi. Saya seorang
-              teknisi WiFi lapangan, lulusan SMK Teknik Kendaraan Ringan — dan
-              sedang membangun jalan baru menuju Frontend Development.
-            </p>
-            <p>
-              Dari rasa ingin tahu itu, saya menemukan pemrograman: cara
-              membangun sesuatu yang memberi ruang tepat untuk terus menguji
-              cara berpikir saya. Saya belajar secara otodidak dari fondasi —
-              HTML, CSS, responsive design, accessibility, hingga JavaScript —
-              dengan AI sebagai pendamping untuk riset, memahami konsep, dan
-              code review. Keputusan dan proses berpikir tetap menjadi milik
-              saya sendiri.
-            </p>
-            <p>
-              Frontend, bagi saya, adalah titik temu antara logika di balik
-              sebuah sistem dan cara manusia berinteraksi dengannya.
-            </p>
-            <p>
-              Portfolio ini adalah dokumentasi perjalanan itu — bukan sekadar
-              kumpulan hasil akhir, tapi catatan tentang bagaimana saya belajar,
-              membangun, menemukan masalah, dan berkembang.
-            </p>
-          </section>
-
-          <section id="skills" class="c-skills" aria-labelledby="skills-title">
-            <p class="c-skills__eyebrow c-eyebrow">Skills</p>
-            <h2 id="skills-title">Yang Terus Diasah</h2>
-            <dl class="c-skill__list">
-              <div class="c-skill__card">
-                <dt class="c-skill__card-title">HTML &amp; CSS</dt>
-                <dd class="c-skill__card-desc">
-                  Semantic Markup dan layout Flex/Grid, dengan pendekatan desain
-                  yang minimalis.
-                </dd>
-                <dd class="c-skill__card-status">Done</dd>
-              </div>
-              <div class="c-skill__card">
-                <dt class="c-skill__card-title">Accessibility</dt>
-                <dd class="c-skill__card-desc">
-                  Keyboard navigation, color contrast, dan struktur yang ramah
-                  screen reader.
-                </dd>
-                <dd class="c-skill__card-status">Done</dd>
-              </div>
-              <div class="c-skill__card">
-                <dt class="c-skill__card-title">Responsive Web Design</dt>
-                <dd class="c-skill__card-desc">
-                  Layout yang tetap rapi di berbagai ukuran layar, mobile-first.
-                </dd>
-                <dd class="c-skill__card-status">Done</dd>
-              </div>
-              <div class="c-skill__card">
-                <dt class="c-skill__card-title">JavaScript</dt>
-                <dd class="c-skill__card-desc">
-                  Sedang mempelajari sintaks, tipe data, dan topik pemula
-                  lainnya.
-                </dd>
-                <dd class="c-skill__card-status">Current</dd>
-              </div>
-              <div class="c-skill__card">
-                <dt class="c-skill__card-title">Git &amp; Version Control</dt>
-                <dd class="c-skill__card-desc">
-                  GitHub Workflow dan Conventional Commits, dari branching
-                  sampai pull request.
-                </dd>
-                <dd class="c-skill__card-status">Applying</dd>
-              </div>
-              <div class="c-skill__card">
-                <dt class="c-skill__card-title">AI-Assisted Learning</dt>
-                <dd class="c-skill__card-desc">
-                  Terbiasa memakai AI untuk riset materi, code review, dan
-                  mempercepat proses belajar.
-                </dd>
-                <dd class="c-skill__card-status">Applying</dd>
-              </div>
-              <div class="c-skill__card">
-                <dt class="c-skill__card-title">Debugging Mindset</dt>
-                <dd class="c-skill__card-desc">
-                  Ketelitian visual ala desainer, dipadu kesabaran teknisi
-                  lapangan dalam mencari akar masalah.
-                </dd>
-                <dd class="c-skill__card-status">Applying</dd>
-              </div>
-            </dl>
-          </section>
-
-          <section
-            id="projects"
-            class="c-projects"
-            aria-labelledby="projects-title"
-          >
-            <p class="c-projects__eyebrow c-eyebrow">Proyek</p>
-            <h2 id="projects-title">Selesai, Bukan Sempurna</h2>
-            <article class="c-project__card">
-              <div class="c-project__card-header">
-                <h3 class="c-project__card-title">Personal Portfolio</h3>
-              </div>
-              <div class="c-project__card-body">
-                <p class="c-project__card-desc">
-                  Proyek perdana untuk memvalidasi fondasi HTML, CSS, dan
-                  aksesibilitas dasar. Dari sinilah saya belajar mengarahkan
-                  diri pada penyelesaian, bukan kesempurnaan.
-                </p>
-              </div>
-              <div class="c-project__card-actions">
-                <a
-                  href="https://github.com/AriDPrasetio/ari-d-prasetio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="c-project__card-link c-link-inline"
-                  >Source Code
-                </a>
-              </div>
-            </article>
-          </section>
-
-          <section
-            id="contact"
-            class="c-contact"
-            aria-labelledby="contact-title"
-          >
-            <p class="c-contact__eyebrow c-eyebrow">Kontak</p>
-            <h2 id="contact-title">Ada yang ingin Didiskusikan?</h2>
-            <p class="c-contact__desc">
-              Baik Anda seorang rekruter, sesama career-switcher, atau sekadar
-              ingin mengobrol seputar web development, jangan ragu untuk
-              menyapa!
-            </p>
-
-            <div class="c-contact__actions">
-              <a
-                href="mailto:aridprasetio@gmail.com"
-                class="c-btn c-btn--secondary"
-                >Email</a
-              >
-              <a
-                href="https://github.com/AriDPrasetio/ari-d-prasetio"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="c-btn c-btn--primary"
-                >GitHub</a
-              >
-            </div>
-          </section>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section
+        id="about"
+        class="c-about o-section"
+        aria-labelledby="about-title"
+      >
+        <p class="c-about__eyebrow c-eyebrow">Tentang</p>
+        <h2 id="about-title">Perjalanan Baru</h2>
+        <p>
+          Latar belakang saya bukan dari dunia teknologi. Saya seorang teknisi
+          WiFi lapangan, lulusan SMK Teknik Kendaraan Ringan — dan sedang
+          membangun jalan baru menuju Frontend Development.
+        </p>
+        <p>
+          Dari rasa ingin tahu itu, saya menemukan pemrograman: cara membangun
+          sesuatu yang memberi ruang tepat untuk terus menguji cara berpikir
+          saya. Saya belajar secara otodidak dari fondasi — HTML, CSS,
+          responsive design, accessibility, hingga JavaScript — dengan AI
+          sebagai pendamping untuk riset, memahami konsep, dan code review.
+          Keputusan dan proses berpikir tetap menjadi milik saya sendiri.
+        </p>
+        <p>
+          Frontend, bagi saya, adalah titik temu antara logika di balik sebuah
+          sistem dan cara manusia berinteraksi dengannya.
+        </p>
+        <p>
+          Portfolio ini adalah dokumentasi perjalanan itu — bukan sekadar
+          kumpulan hasil akhir, tapi catatan tentang bagaimana saya belajar,
+          membangun, menemukan masalah, dan berkembang.
+        </p>
+      </section>
+
+      <section
+        id="skills"
+        class="c-skills o-section"
+        aria-labelledby="skills-title"
+      >
+        <p class="c-skills__eyebrow c-eyebrow">Skills</p>
+        <h2 id="skills-title">Yang Terus Diasah</h2>
+        <dl class="c-skill__list">
+          <div class="c-skill__card">
+            <dt class="c-skill__card-title">HTML &amp; CSS</dt>
+            <dd class="c-skill__card-desc">
+              Semantic Markup dan layout Flex/Grid, dengan pendekatan desain
+              yang minimalis.
+            </dd>
+            <dd class="c-skill__card-status">Done</dd>
+          </div>
+          <div class="c-skill__card">
+            <dt class="c-skill__card-title">Accessibility</dt>
+            <dd class="c-skill__card-desc">
+              Keyboard navigation, color contrast, dan struktur yang ramah
+              screen reader.
+            </dd>
+            <dd class="c-skill__card-status">Done</dd>
+          </div>
+          <div class="c-skill__card">
+            <dt class="c-skill__card-title">Responsive Web Design</dt>
+            <dd class="c-skill__card-desc">
+              Layout yang tetap rapi di berbagai ukuran layar, mobile-first.
+            </dd>
+            <dd class="c-skill__card-status">Done</dd>
+          </div>
+          <div class="c-skill__card">
+            <dt class="c-skill__card-title">JavaScript</dt>
+            <dd class="c-skill__card-desc">
+              Sedang mempelajari sintaks, tipe data, dan topik pemula lainnya.
+            </dd>
+            <dd class="c-skill__card-status">Current</dd>
+          </div>
+          <div class="c-skill__card">
+            <dt class="c-skill__card-title">Git &amp; Version Control</dt>
+            <dd class="c-skill__card-desc">
+              GitHub Workflow dan Conventional Commits, dari branching sampai
+              pull request.
+            </dd>
+            <dd class="c-skill__card-status">Applying</dd>
+          </div>
+          <div class="c-skill__card">
+            <dt class="c-skill__card-title">AI-Assisted Learning</dt>
+            <dd class="c-skill__card-desc">
+              Terbiasa memakai AI untuk riset materi, code review, dan
+              mempercepat proses belajar.
+            </dd>
+            <dd class="c-skill__card-status">Applying</dd>
+          </div>
+          <div class="c-skill__card">
+            <dt class="c-skill__card-title">Debugging Mindset</dt>
+            <dd class="c-skill__card-desc">
+              Ketelitian visual ala desainer, dipadu kesabaran teknisi lapangan
+              dalam mencari akar masalah.
+            </dd>
+            <dd class="c-skill__card-status">Applying</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section
+        id="projects"
+        class="c-projects o-section"
+        aria-labelledby="projects-title"
+      >
+        <p class="c-projects__eyebrow c-eyebrow">Proyek</p>
+        <h2 id="projects-title">Selesai, Bukan Sempurna</h2>
+        <article class="c-project__card">
+          <div class="c-project__card-header">
+            <h3 class="c-project__card-title">Personal Portfolio</h3>
+          </div>
+          <div class="c-project__card-body">
+            <p class="c-project__card-desc">
+              Proyek perdana untuk memvalidasi fondasi HTML, CSS, dan
+              aksesibilitas dasar. Dari sinilah saya belajar mengarahkan diri
+              pada penyelesaian, bukan kesempurnaan.
+            </p>
+          </div>
+          <div class="c-project__card-actions">
+            <a
+              href="https://github.com/AriDPrasetio/ari-d-prasetio"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="c-project__card-link c-link-inline"
+              >Source Code
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section
+        id="contact"
+        class="c-contact o-section"
+        aria-labelledby="contact-title"
+      >
+        <p class="c-contact__eyebrow c-eyebrow">Kontak</p>
+        <h2 id="contact-title">Ada yang ingin Didiskusikan?</h2>
+        <p class="c-contact__desc">
+          Baik Anda seorang rekruter, sesama career-switcher, atau sekadar ingin
+          mengobrol seputar web development, jangan ragu untuk menyapa!
+        </p>
+
+        <div class="c-contact__actions">
+          <a href="mailto:aridprasetio@gmail.com" class="c-btn c-btn--secondary"
+            >Email</a
+          >
+          <a
+            href="https://github.com/AriDPrasetio/ari-d-prasetio"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="c-btn c-btn--primary"
+            >GitHub</a
+          >
+        </div>
+      </section>
     </main>
 
     <footer class="c-footer o-wrapper">
