@@ -1,0 +1,19 @@
+.o-section {
+  padding-block: var(--space-16);
+}
+
+@media (min-width: 48rem) {
+  .o-section {
+    padding-block: var(--space-20);
+  }
+}
+@media (min-width: 64rem) {
+  .o-section {
+    padding-block: var(--space-24);
+  }
+}
+@media (min-width: 80rem) {
+  .o-section {
+    padding-block: var(--space-32);
+  }
+}

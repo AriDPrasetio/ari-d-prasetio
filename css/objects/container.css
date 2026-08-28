@@ -1,0 +1,20 @@
+.o-container {
+  inline-size: 100%;
+  margin-inline: auto;
+}
+
+@media (min-width: 48rem) {
+  .o-container {
+    max-inline-size: 768px;
+  }
+}
+@media (min-width: 64rem) {
+  .o-container {
+    max-inline-size: 1024px;
+  }
+}
+@media (min-width: 80rem) {
+  .o-container {
+    max-inline-size: 1280px;
+  }
+}

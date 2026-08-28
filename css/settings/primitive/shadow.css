@@ -1,0 +1,30 @@
+:root {
+  /* 
+    Level 1: Extra Small (xs) 
+    Untuk elemen kecil yang butuh penegasan tipis: Input form, Badge, Button kecil
+  */
+  --shadow-xs:
+    0 0 0 1px rgba(0, 0, 0, 0.04),
+    /* Soft ring (border maya) */ 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  /* 
+    Level 2: Small (sm) 
+    Elevasi standar: Card statis, Button utama
+  */
+  --shadow-sm:
+    0 0 0 1px rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.04),
+    0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  /* 
+    Level 3: Medium (md) 
+    Mulai melayang: Efek Hover (Card di-hover), Dropdown kecil
+  */
+  --shadow-md:
+    0 0 0 1px rgba(0, 0, 0, 0.04), 0 2px 4px 0 rgba(0, 0, 0, 0.03),
+    0 4px 8px 0 rgba(0, 0, 0, 0.04), 0 8px 12px -2px rgba(0, 0, 0, 0.05);
+  /* 
+    Level 4: Large (lg) 
+    Melayang cukup tinggi: Popover, Tooltip, Navbar (Sticky Header)
+  */
+  --shadow-lg:
+    0 0 0 1px rgba(0, 0, 0, 0.03), 0 2px 4px 0 rgba(0, 0, 0, 0.02),
+    0 8px 16px 0 rgba(0, 0, 0, 0.04), 0 16px 24px -4px rgba(0, 0, 0, 0.06);
+}
