@@ -1,0 +1,7 @@
+.c-eyebrow {
+  font-size: var(--size-link);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-wide);
+  color: var(--color-interactive-hover);
+}
