@@ -9,5 +9,8 @@ Thumbs.db
 # Dokument
 docs/
 
-#json
+# json
 .json
+
+# Agent
+.agent
