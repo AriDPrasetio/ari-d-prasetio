@@ -1,7 +1,7 @@
 .c-btn {
   display: inline-flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   text-decoration: none;
   line-height: 1;
   padding: var(--space-4) var(--space-8);
