@@ -27,5 +27,5 @@
   --color-interactive-text: var(--color-white);
 
   /* Overlay / scrim */
-  --color-overlay-scrim: rgb(0 0 0 / 0.45);
+  --color-overlay-scrim: rgb(0 0 0 / 0.02);
 }
