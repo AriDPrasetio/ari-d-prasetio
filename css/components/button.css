@@ -1,0 +1,43 @@
+.c-btn {
+  display: inline-flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-decoration: none;
+  line-height: 1;
+  padding: var(--space-4) var(--space-8);
+  border-radius: var(--space-1);
+  box-shadow: var(--shadow-md);
+  transition:
+    transform 240ms ease,
+    background-color 240ms ease,
+    color 240ms ease,
+    border-color 240ms ease;
+}
+
+.c-btn--primary {
+  background-color: var(--color-interactive-default);
+  color: var(--color-interactive-text);
+}
+.c-btn--primary:hover {
+  background-color: var(--color-interactive-hover);
+  transform: translateY(-2px);
+}
+.c-btn--primary:active {
+  background-color: var(--color-interactive-active);
+  transform: translateY(0);
+}
+
+.c-btn--secondary {
+  background-color: var(--color-bg-canvas);
+  color: var(--color-interactive-default);
+  border: 1px solid var(--color-interactive-default);
+}
+.c-btn--secondary:hover {
+  background-color: var(--color-bg-canvas);
+  transform: translateY(-2px);
+  border-color: var(--color-interactive-hover);
+}
+.c-btn--secondary:active {
+  background-color: var(--color-bg-subtle);
+  transform: translateY(0);
+}
