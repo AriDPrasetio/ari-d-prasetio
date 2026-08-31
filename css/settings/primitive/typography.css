@@ -51,6 +51,7 @@
   --font-size-fluid-display: clamp(2.75rem, 1.9rem + 4vw, 5rem);
 
   /* Weight */
+  --font-weight-thin: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
