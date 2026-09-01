@@ -35,8 +35,8 @@
   --color-border-done: var(--color-green-500);
   --color-bg-current: var(--color-blue-50);
   --color-text-current: var(--color-blue-700);
-  --color-border-done: var(--color-blue-500);
+  --color-border-current: var(--color-blue-500);
   --color-bg-applying: var(--color-brand-50);
   --color-text-applying: var(--color-brand-700);
-  --color-border-done: var(--color--500);
+  --color-border-applying: var(--color-brand-500);
 }
