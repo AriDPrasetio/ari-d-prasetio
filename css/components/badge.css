@@ -1,0 +1,27 @@
+.c-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size-caption);
+  font-weight: var(--font-weight-thin);
+  line-height: 1;
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--color-border-default);
+  border-radius: 9999px;
+}
+
+.c-badge--done {
+  background-color: var(--color-bg-done);
+  color: var(--color-text-done);
+  border-color: var(--color-border-done);
+}
+.c-badge--current {
+  background-color: var(--color-bg-current);
+  color: var(--color-text-current);
+  border-color: var(--color-border-current);
+}
+.c-badge--applying {
+  background-color: var(--color-bg-applying);
+  color: var(--color-text-applying);
+  border-color: var(--color-border-applying);
+}
