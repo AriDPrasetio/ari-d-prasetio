@@ -1,0 +1,50 @@
+.c-skills {
+  border-block-end: 1px solid var(--color-border-subtle);
+}
+.c-skills__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.c-skills__title {
+  font-size: var(--size-h1);
+  font-weight: var(--font-weight-medium);
+}
+
+.c-skills__body {
+  padding-block: var(--space-20);
+}
+
+.c-skill__list {
+  display: grid;
+  gap: var(--space-4);
+}
+.c-skill__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-4);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 0.25rem;
+  padding: var(--space-4);
+}
+.c-skill__card-title {
+  font-size: var(--size-h3);
+  font-weight: var(--font-weight-regular);
+  padding-block-end: var(--space-4);
+}
+.c-skill__card-desc {
+  font-weight: var(--font-weight-thin);
+  color: var(--color-text-secondary);
+}
+
+@media (min-width: 48rem) {
+  .c-skill__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 64rem) {
+  .c-skill__list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
