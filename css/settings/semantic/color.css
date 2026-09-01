@@ -28,4 +28,15 @@
 
   /* Overlay / scrim */
   --color-overlay-scrim: rgb(0 0 0 / 0.02);
+
+  /* Component */
+  --color-bg-done: var(--color-green-50);
+  --color-text-done: var(--color-green-700);
+  --color-border-done: var(--color-green-500);
+  --color-bg-current: var(--color-blue-50);
+  --color-text-current: var(--color-blue-700);
+  --color-border-current: var(--color-blue-500);
+  --color-bg-applying: var(--color-brand-50);
+  --color-text-applying: var(--color-brand-700);
+  --color-border-applying: var(--color-brand-500);
 }

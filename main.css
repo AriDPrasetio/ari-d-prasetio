@@ -25,3 +25,5 @@
 @import url("css/components/button.css") layer(components);
 @import url("css/components/eyebrow.css") layer(components);
 @import url("css/components/about.css") layer(components);
+@import url("css/components/skills.css") layer(components);
+@import url("css/components/badge.css") layer(components);
