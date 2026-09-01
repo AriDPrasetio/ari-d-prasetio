@@ -8,4 +8,5 @@
   --size-h3: var(--font-size-fluid-h3);
   --size-body: var(--font-size-fluid-body);
   --size-link: var(--font-size-2);
+  --size-caption: var(--font-size-2);
 }
