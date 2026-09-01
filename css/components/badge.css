@@ -1,7 +1,7 @@
 .c-badge {
   display: inline-flex;
   justify-content: center;
-  align-items: center;
+  align-self: flex-start;
   font-size: var(--size-caption);
   font-weight: var(--font-weight-thin);
   line-height: 1;
