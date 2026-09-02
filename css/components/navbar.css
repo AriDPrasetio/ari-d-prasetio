@@ -85,6 +85,9 @@
   .c-navigation {
     display: block;
   }
+  .js .c-navigation {
+    display: block;
+  }
   .js .c-navigation__toggle {
     display: none;
   }
