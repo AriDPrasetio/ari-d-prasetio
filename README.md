@@ -4,7 +4,11 @@ Website portofolio personal, dibangun dengan HTML, Vanilla CSS (tanpa framework)
 
 ## Status
 
-> Sedang dalam pengerjaan. Situs belum di-deploy (GitHub Pages belum aktif); URL publik saat ini adalah repositori GitHub.
+> **v1 (Fondasi) — Selesai.** Semantic HTML, CSS (Flexbox/Grid, custom properties), aksesibilitas dasar, dan responsive design sudah final untuk seluruh section (Hero, About, Skills, Projects, Contact, Footer).
+>
+> Pengembangan **dijeda sementara** untuk fokus memperdalam JavaScript terlebih dahulu. Portofolio ini adalah _living project_ — akan terus diperbarui seiring skill bertambah.
+>
+> Situs belum di-deploy (GitHub Pages belum aktif); URL publik saat ini adalah repositori GitHub.
 
 ## Stack
 
