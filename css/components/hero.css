@@ -20,14 +20,6 @@
   block-size: 100%;
   object-fit: cover;
 }
-.c-hero__background-overlay {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  inline-size: 100%;
-  block-size: 100%;
-  background-color: var(--color-overlay-scrim);
-}
 
 .c-hero__inner {
   display: flex;
