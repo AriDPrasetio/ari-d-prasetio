@@ -3,7 +3,78 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ari Dwi Prasetio | Personal Portfolio</title>
+    <title>Ari Dwi Prasetio | Frontend Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio Ari Dwi Prasetio, seorang calon Frontend Developer yang membangun fondasi web development melalui HTML, CSS, JavaScript, accessibility, dan responsive design."
+    />
+    <meta name="author" content="Ari Dwi Prasetio" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      rel="canonical"
+      href="https://github.com/AriDPrasetio/ari-d-prasetio"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Ari Dwi Prasetio" />
+    <meta
+      property="og:url"
+      content="https://github.com/AriDPrasetio/ari-d-prasetio"
+    />
+    <meta
+      property="og:title"
+      content="Ari Dwi Prasetio | Frontend Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Dokumentasi perjalanan Ari Dwi Prasetio menuju Frontend Development melalui proses belajar, proyek, dan pengembangan skill."
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/AriDPrasetio/ari-d-prasetio/main/assets/image/portfolio-hero-line-art.webp"
+    />
+    <meta
+      property="og:image:alt"
+      content="Ilustrasi line art halaman beranda portofolio Ari Dwi Prasetio"
+    />
+    <meta property="og:image:width" content="1672" />
+    <meta property="og:image:height" content="941" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Ari Dwi Prasetio | Frontend Developer Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Portfolio dan dokumentasi perjalanan Ari Dwi Prasetio menuju Frontend Development."
+    />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/AriDPrasetio/ari-d-prasetio/main/assets/image/portfolio-hero-line-art.webp"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Ilustrasi line art halaman beranda portofolio Ari Dwi Prasetio"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ari Dwi Prasetio",
+        "jobTitle": "Calon Frontend Developer",
+        "description": "Calon Frontend Developer yang sedang membangun fondasi dalam HTML, CSS, JavaScript, accessibility, dan responsive web design.",
+        "url": "https://github.com/AriDPrasetio/ari-d-prasetio",
+        "email": "mailto:aridprasetio@gmail.com",
+        "image": "https://raw.githubusercontent.com/AriDPrasetio/ari-d-prasetio/main/assets/image/portfolio-hero-line-art.webp",
+        "sameAs": ["https://github.com/AriDPrasetio/ari-d-prasetio"]
+      }
+    </script>
+
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
@@ -19,6 +90,7 @@
           class="c-navigation__toggle"
           aria-controls="primary-navigation"
           aria-expanded="false"
+          aria-haspopup="true"
           aria-label="Buka menu navigasi"
         >
           <span class="c-navigation__toggle-line" aria-hidden="true"></span>
@@ -33,36 +105,38 @@
         >
           <ul class="c-navigation__list" role="list">
             <li class="c-navigation__item">
-              <a href="#home" class="c-navigation__link">Home</a>
+              <a href="#home" class="c-navigation__link">Beranda</a>
             </li>
             <li class="c-navigation__item">
-              <a href="#about" class="c-navigation__link">About</a>
+              <a href="#about" class="c-navigation__link">Tentang</a>
             </li>
             <li class="c-navigation__item">
-              <a href="#skills" class="c-navigation__link">Skills</a>
+              <a href="#skills" class="c-navigation__link">Keahlian</a>
             </li>
             <li class="c-navigation__item">
-              <a href="#projects" class="c-navigation__link">Projects</a>
+              <a href="#projects" class="c-navigation__link">Proyek</a>
             </li>
             <li class="c-navigation__item">
-              <a href="#contact" class="c-navigation__link">Contact</a>
+              <a href="#contact" class="c-navigation__link">Kontak</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main id="main-content" class="">
+    <main id="main-content">
       <section id="home" class="c-hero o-section" aria-labelledby="hero-title">
         <div class="c-hero__background">
           <img
             src="assets/image/minimalist-landscape-line-art.webp"
             alt=""
+            width="1672"
+            height="941"
             class="c-hero__background-image"
+            fetchpriority="high"
             aria-hidden="true"
           />
         </div>
-        <div class="c-hero__background-overlay" aria-hidden="true"></div>
 
         <div class="c-hero__inner o-container o-wrapper">
           <div class="c-hero__content-text">
@@ -106,6 +180,9 @@
                 <img
                   src="assets/image/about-titik-awal.webp"
                   alt=""
+                  width="5016"
+                  height="5016"
+                  loading="lazy"
                   aria-hidden="true"
                   class="c-about__card-image"
                 />
@@ -124,6 +201,9 @@
                 <img
                   src="assets/image/about-cara-belajar.webp"
                   alt=""
+                  width="5016"
+                  height="5016"
+                  loading="lazy"
                   aria-hidden="true"
                   class="c-about__card-image"
                 />
@@ -142,6 +222,9 @@
                 <img
                   src="assets/image/about-titik-temu.webp"
                   alt=""
+                  width="5016"
+                  height="5016"
+                  loading="lazy"
                   aria-hidden="true"
                   class="c-about__card-image"
                 />
@@ -159,6 +242,9 @@
                 <img
                   src="assets/image/about-bukan-sekedar-hasil-akhir.webp"
                   alt=""
+                  width="5016"
+                  height="5016"
+                  loading="lazy"
                   aria-hidden="true"
                   class="c-about__card-image"
                 />
@@ -187,88 +273,90 @@
             <h2 id="skills-title" class="c-skills__title">Yang Terus Diasah</h2>
           </div>
           <div class="c-skills__body">
-            <ul class="c-skill__list" role="list">
-              <li class="c-skill__card c-skill__card--done">
-                <div class="c-skill__card-content">
-                  <h3 class="c-skill__card-title">HTML &amp; CSS</h3>
-                  <p class="c-skill__card-desc">
+            <ul class="c-skills__list" role="list">
+              <li class="c-skills__card c-skills__card--applying">
+                <div class="c-skills__card-content">
+                  <h3 class="c-skills__card-title">HTML &amp; CSS</h3>
+                  <p class="c-skills__card-desc">
                     Semantic Markup dan layout Flex/Grid, dengan desain
                     minimalis.
                   </p>
                 </div>
-                <span class="c-skill__card-status c-badge c-badge--done"
-                  >Done</span
+                <span class="c-skills__card-status c-badge c-badge--applying"
+                  >Applying</span
                 >
               </li>
-              <li class="c-skill__card c-skill__card--done">
-                <div class="c-skill__card-content">
-                  <h3 class="c-skill__card-title">Accessibility</h3>
-                  <p class="c-skill__card-desc">
+              <li class="c-skills__card c-skills__card--applying">
+                <div class="c-skills__card-content">
+                  <h3 class="c-skills__card-title">Accessibility</h3>
+                  <p class="c-skills__card-desc">
                     Keyboard navigation, color contrast, dan struktur yang ramah
                     screen reader.
                   </p>
                 </div>
-                <span class="c-skill__card-status c-badge c-badge--done"
-                  >Done</span
+                <span class="c-skills__card-status c-badge c-badge--applying"
+                  >Applying</span
                 >
               </li>
-              <li class="c-skill__card c-skill__card--done">
-                <div class="c-skill__card-content">
-                  <h3 class="c-skill__card-title">Responsive Web Design</h3>
-                  <p class="c-skill__card-desc">
+              <li class="c-skills__card c-skills__card--applying">
+                <div class="c-skills__card-content">
+                  <h3 class="c-skills__card-title">Responsive Web Design</h3>
+                  <p class="c-skills__card-desc">
                     Layout yang tetap rapi di berbagai ukuran layar,
                     mobile-first.
                   </p>
                 </div>
-                <span class="c-skill__card-status c-badge c-badge--done"
-                  >Done</span
+                <span class="c-skills__card-status c-badge c-badge--applying"
+                  >Applying</span
                 >
               </li>
-              <li class="c-skill__card c-skill__card--current">
-                <div class="c-skill__card-content">
-                  <h3 class="c-skill__card-title">JavaScript</h3>
-                  <p class="c-skill__card-desc">
+              <li class="c-skills__card c-skills__card--current">
+                <div class="c-skills__card-content">
+                  <h3 class="c-skills__card-title">JavaScript</h3>
+                  <p class="c-skills__card-desc">
                     Sedang mempelajari sintaks, tipe data, dan topik pemula
                     lainnya.
                   </p>
                 </div>
-                <span class="c-skill__card-status c-badge c-badge--current">
+                <span class="c-skills__card-status c-badge c-badge--current">
                   Current
                 </span>
               </li>
-              <li class="c-skill__card c-skill__card--applying">
-                <div class="c-skill__card-content">
-                  <h3 class="c-skill__card-title">Git &amp; Version Control</h3>
-                  <p class="c-skill__card-desc">
+              <li class="c-skills__card c-skills__card--applying">
+                <div class="c-skills__card-content">
+                  <h3 class="c-skills__card-title">
+                    Git &amp; Version Control
+                  </h3>
+                  <p class="c-skills__card-desc">
                     GitHub Workflow dan Conventional Commits, dari branching
                     sampai pull request.
                   </p>
                 </div>
-                <span class="c-skill__card-status c-badge c-badge--applying">
+                <span class="c-skills__card-status c-badge c-badge--applying">
                   Applying
                 </span>
               </li>
-              <li class="c-skill__card c-skill__card--applying">
-                <div class="c-skill__card-content">
-                  <h3 class="c-skill__card-title">AI-Assisted Learning</h3>
-                  <p class="c-skill__card-desc">
+              <li class="c-skills__card c-skills__card--applying">
+                <div class="c-skills__card-content">
+                  <h3 class="c-skills__card-title">AI-Assisted Learning</h3>
+                  <p class="c-skills__card-desc">
                     Terbiasa memakai AI untuk riset materi, code review, dan
                     mempercepat proses belajar.
                   </p>
                 </div>
-                <span class="c-skill__card-status c-badge c-badge--applying">
+                <span class="c-skills__card-status c-badge c-badge--applying">
                   Applying
                 </span>
               </li>
-              <li class="c-skill__card c-skill__card--applying">
-                <div class="c-skill__card-content">
-                  <h3 class="c-skill__card-title">Debugging Mindset</h3>
-                  <p class="c-skill__card-desc">
+              <li class="c-skills__card c-skills__card--applying">
+                <div class="c-skills__card-content">
+                  <h3 class="c-skills__card-title">Debugging Mindset</h3>
+                  <p class="c-skills__card-desc">
                     Ketelitian visual ala desainer, dipadu kesabaran teknisi
                     lapangan dalam mencari akar masalah.
                   </p>
                 </div>
-                <span class="c-skill__card-status c-badge c-badge--applying">
+                <span class="c-skills__card-status c-badge c-badge--applying">
                   Applying
                 </span>
               </li>
@@ -290,18 +378,20 @@
             </h2>
           </div>
           <div class="c-projects__body">
-            <article class="c-project__card">
-              <div class="c-project__card-media">
+            <article class="c-projects__card">
+              <div class="c-projects__card-media">
                 <img
                   src="assets/image/portfolio-hero-line-art.webp"
                   alt="Screenshot dari proyek Personal Portfolio, menampilkan halaman beranda"
-                  class="c-project__card-image"
+                  class="c-projects__card-image"
+                  width="1672"
+                  height="941"
                   loading="lazy"
                 />
               </div>
-              <div class="c-project__card-text">
-                <h3 class="c-project__card-title">Personal Portfolio</h3>
-                <p class="c-project__card-desc">
+              <div class="c-projects__card-text">
+                <h3 class="c-projects__card-title">Personal Portfolio</h3>
+                <p class="c-projects__card-desc">
                   Proyek perdana untuk memvalidasi fondasi HTML, CSS, dan
                   aksesibilitas dasar. Dari sinilah saya belajar mengarahkan
                   diri pada penyelesaian, bukan kesempurnaan.
@@ -310,7 +400,7 @@
                   href="https://github.com/AriDPrasetio/ari-d-prasetio"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="c-project__card-link c-link-inline"
+                  class="c-projects__card-link"
                   >Source Code
                 </a>
               </div>
@@ -355,8 +445,10 @@
           <div class="c-contact__media">
             <img
               src="assets/image/people-discussion-line-art-transparent.webp"
-              alt="People discussing ideas, line art illustration"
+              alt="Ilustrasi line art orang yang sedang berdiskusi"
               class="c-contact__media-image"
+              width="1254"
+              height="1254"
               loading="lazy"
             />
           </div>
@@ -364,7 +456,7 @@
       </section>
     </main>
 
-    <footer class="c-footer">
+    <footer id="footer" class="c-footer">
       <div class="c-footer__inner o-container o-wrapper">
         <p class="c-footer__text">&copy; 2026 | Ari Dwi Prasetio</p>
         <p class="c-footer__text">

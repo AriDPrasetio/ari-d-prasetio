@@ -12,11 +12,11 @@
   padding-block: var(--space-20);
 }
 
-.c-skill__list {
+.c-skills__list {
   display: grid;
   gap: var(--space-4);
 }
-.c-skill__card {
+.c-skills__card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,38 +29,38 @@
     transform 240ms ease,
     box-shadow 240ms ease;
 }
-.c-skill__card--done:hover {
+.c-skills__card--done:hover {
   border: 1px solid var(--color-border-done);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
-.c-skill__card--current:hover {
+.c-skills__card--current:hover {
   border-color: var(--color-border-current);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
-.c-skill__card--applying:hover {
+.c-skills__card--applying:hover {
   border-color: var(--color-border-applying);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
-.c-skill__card-title {
+.c-skills__card-title {
   font-size: var(--size-h3);
   font-weight: var(--font-weight-regular);
   padding-block-end: var(--space-4);
 }
-.c-skill__card-desc {
+.c-skills__card-desc {
   font-weight: var(--font-weight-thin);
   color: var(--color-text-secondary);
 }
 
 @media (min-width: 48rem) {
-  .c-skill__list {
+  .c-skills__list {
     grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 64rem) {
-  .c-skill__list {
+  .c-skills__list {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

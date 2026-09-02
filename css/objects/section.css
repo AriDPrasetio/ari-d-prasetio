@@ -1,5 +1,6 @@
 .o-section {
   padding-block: var(--space-16);
+  scroll-margin-block-start: var(--space-16);
 }
 
 @media (min-width: 48rem) {

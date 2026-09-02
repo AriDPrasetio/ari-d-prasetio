@@ -9,6 +9,9 @@ html {
   outline: 2px solid var(--color-interactive-default);
   outline-offset: 2px;
 }
+main {
+  scroll-margin-block-start: var(--space-16);
+}
 body {
   font-family: var(--font-body);
   font-size: var(--size-body);
