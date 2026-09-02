@@ -4,12 +4,13 @@ Website portofolio personal, dibangun dengan HTML, Vanilla CSS (tanpa framework)
 
 ## Status
 
-> Sedang dalam pengerjaan.
+> Sedang dalam pengerjaan. Situs belum di-deploy (GitHub Pages belum aktif); URL publik saat ini adalah repositori GitHub.
 
-## Stack (rencana)
+## Stack
 
-- HTML5, CSS3 (Custom Properties, Cascade Layers, Flexbox/Grid), Vanilla JS.
-- Arsitektur CSS: ITCSS, BEM, Design token 2-tier (primitive + semantic), CSS logical properties
+- HTML5, CSS3 (Custom Properties, Flexbox/Grid), Vanilla JS.
+- Arsitektur CSS: ITCSS, BEM, design token 2-tier (primitive + semantic), CSS logical properties.
+- Cascade Layers (`@layer`) belum dipakai; urutan impor ITCSS yang menjaga spesifisitas.
 
 ## Kontak
 
