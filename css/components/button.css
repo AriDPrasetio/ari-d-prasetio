@@ -21,6 +21,7 @@
 .c-btn--primary:hover {
   background-color: var(--color-interactive-hover);
   transform: translateY(-2px);
+  color: var(--color-text-inverse);
 }
 .c-btn--primary:active {
   background-color: var(--color-interactive-active);
